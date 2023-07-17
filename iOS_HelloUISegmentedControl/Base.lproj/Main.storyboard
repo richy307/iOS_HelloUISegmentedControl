@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="p7b-fv-oZS">
-                                <rect key="frame" x="91" y="203" width="210" height="32"/>
+                                <rect key="frame" x="91" y="151" width="210" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Public"/>
@@ -25,6 +25,20 @@
                                 </segments>
                                 <connections>
                                     <action selector="myToggleChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ecv-6O-IYq"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="b3F-he-YOd">
+                                <rect key="frame" x="16" y="252" width="361" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="White"/>
+                                    <segment title="Black"/>
+                                    <segment title="Red"/>
+                                    <segment title="Orange"/>
+                                    <segment title="Yellow"/>
+                                </segments>
+                                <connections>
+                                    <action selector="myToggleChanged_5:" destination="BYZ-38-t0r" eventType="valueChanged" id="SHo-ZY-GsE"/>
                                 </connections>
                             </segmentedControl>
                         </subviews>
